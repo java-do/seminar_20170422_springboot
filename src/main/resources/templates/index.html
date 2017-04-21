@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Index</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <h1>Hello Web page</h1>
 <p>This is Thymeleaf page on Spring Boot.</p>
 <p th:text="${message1}">replace message</p>
 <p th:text="${dimessage}">replace di message</p>
+<p><button onclick="$('#api').load('/api/hello');">APIにアクセスして以下の文字列を更新します</button></p>
+<p id="api">replace api message</p>
 <p><a th:href="@{/web/list}">List page Link</a></p>
 </body>
 </html>

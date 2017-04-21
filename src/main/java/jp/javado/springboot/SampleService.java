@@ -9,10 +9,10 @@ import java.util.Map;
  * Created by ueno on 2017/04/17.
  */
 @Service
-public class CafeService implements ICafeService {
+public class SampleService implements ISampleService {
 
     @Override
-    public String getCoffee(String id) {
+    public String getSample(String id) {
         Map<String, String> map = new HashMap<>();
         map.put("1", "drip coffee");
         map.put("2", "coffee latte");
