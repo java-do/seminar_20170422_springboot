@@ -1,13 +1,18 @@
 # seminar_20170422_springboot
 for The Spring Boot Session
 
+
 ## 環境セットアップ
+
 ### Mavenプロジェクト作成
- 1. $ mvn -B archetype:generate  -DgroupId=jp.javado.springboot  -DartifactId=springboot-handson1  -Dversion=1.0.0-SNAPSHOT  -DarchetypeArtifactId= maven-archetype-quickstart
- 2. 以下のフォルダ・ファイルができていることを確認
-  1. springboot-handson1
-  2. springboot-handson1/src
-  3. springboot-handson1/pom.xml
+
+#### 以下のコマンドを実行
+$ mvn -B archetype:generate  -DgroupId=jp.javado.springboot  -DartifactId=springboot-handson1  -Dversion=1.0.0-SNAPSHOT  -DarchetypeArtifactId= maven-archetype-quickstart
+
+#### 以下のフォルダ・ファイルができていることを確認
+ - springboot-handson1
+ - springboot-handson1/src
+ - springboot-handson1/pom.xml
 
 ### 作成したプロジェクトを統合開発環境に取り込んでみよう
 
