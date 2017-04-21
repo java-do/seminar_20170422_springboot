@@ -3,7 +3,7 @@ package jp.javado.springboot;
 /**
  * Created by ueno on 2017/04/17.
  */
-public interface ISampleService {
+public interface ICafeService {
 
-    public String getSample(String id);
+    String getCoffee(String id);
 }

@@ -9,14 +9,14 @@ import java.util.Map;
  * Created by ueno on 2017/04/17.
  */
 @Service
-public class SampleService implements ISampleService {
+public class CafeService implements ICafeService {
 
     @Override
-    public String getSample(String id) {
+    public String getCoffee(String id) {
         Map<String, String> map = new HashMap<>();
-        map.put("1", "spring");
-        map.put("2", "boot");
-        map.put("3", "di");
+        map.put("1", "drip coffee");
+        map.put("2", "coffee latte");
+        map.put("3", "Cappuccino");
         return map.get(id);
     }
 }

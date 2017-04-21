@@ -12,14 +12,13 @@ import org.springframework.web.servlet.ModelAndView;
 public class IndexController {
 
     @Autowired
-    private ISampleService sampleService;
+    private ICafeService cafeService;
 
     @RequestMapping("/web/index")
     public ModelAndView index(ModelAndView modelAndView) {
         modelAndView.setViewName("index");
         modelAndView.addObject("message1", "Controllerで設定した文字列");
-        modelAndView.addObject("dimessage", sampleService.getSample("2"));
-        //modelAndView.addObject("dimessage", "2");
+        modelAndView.addObject("dimessage", cafeService.getCoffee("1"));
         return modelAndView;
     }
 }
