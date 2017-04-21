@@ -2,10 +2,30 @@
 for The Spring Boot Session
 
 ## 環境セットアップ
-1. Mavenプロジェクト作成
+### Mavenプロジェクト作成
  1. $ mvn -B archetype:generate  -DgroupId=jp.javado.springboot  -DartifactId=springboot-handson1  -Dversion=1.0.0-SNAPSHOT  -DarchetypeArtifactId= maven-archetype-quickstart
  2. 以下のフォルダ・ファイルができていることを確認
   1. springboot-handson1
   2. springboot-handson1/src
   3. springboot-handson1/pom.xml
- 3. 作成したプロジェクトを統合開発環境にインポート
+
+### 作成したプロジェクトを統合開発環境に取り込んでみよう
+
+### IntelliJ
+
+- Import Project
+ - springboot-handson1/pom.xml を選択
+ - 上から3番目のImport Maven projects automatically にチェック
+ - あとは指示に従ってNextしていく。（JDKの設定ができていることだけ注意）
+ 
+### NetBeans
+
+- ファイル > プロジェクトを開く
+  - springboot-handson1 を選択
+
+### Eclipse
+
+- File > Import...（日本語化していれば ファイル > インポート）
+  - Maven > Existing Maven Project  
+（日本語化していれば、 Maven > 既存のMavenプロジェクト）
+  - Browse > springboot-handson1 を選択
