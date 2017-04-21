@@ -11,19 +11,19 @@ for The Spring Boot Session
 
 ### 作成したプロジェクトを統合開発環境に取り込んでみよう
 
-### IntelliJ
+#### IntelliJ
 
 - Import Project
  - springboot-handson1/pom.xml を選択
  - 上から3番目のImport Maven projects automatically にチェック
  - あとは指示に従ってNextしていく。（JDKの設定ができていることだけ注意）
  
-### NetBeans
+#### NetBeans
 
 - ファイル > プロジェクトを開く
   - springboot-handson1 を選択
 
-### Eclipse
+#### Eclipse
 
 - File > Import...（日本語化していれば ファイル > インポート）
   - Maven > Existing Maven Project  
