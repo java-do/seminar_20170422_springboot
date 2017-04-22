@@ -8,7 +8,7 @@ for The Spring Boot Session
 
 #### 以下のコマンドを実行
 ```
-mvn -B archetype:generate  \
+mvn -B archetype:generate \
 -DgroupId=jp.javado.springboot \
 -DartifactId=springboot-handson1 \
 -Dversion=1.0 \
