@@ -7,6 +7,9 @@ for The Spring Boot Session
 ### Mavenプロジェクト作成
 
 #### 以下のコマンドを実行
+
+うまく行かない場合は、\改行 を削除して、1行でやってみてください。
+
 ```
 mvn -B archetype:generate \
 -DgroupId=jp.javado.springboot \
