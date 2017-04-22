@@ -7,7 +7,13 @@ for The Spring Boot Session
 ### Mavenプロジェクト作成
 
 #### 以下のコマンドを実行
-$ mvn -B archetype:generate  -DgroupId=jp.javado.springboot  -DartifactId=springboot-handson1  -Dversion=1.0  -DarchetypeArtifactId= maven-archetype-quickstart
+```
+mvn -B archetype:generate  \
+-DgroupId=jp.javado.springboot \
+-DartifactId=springboot-handson1 \
+-Dversion=1.0 \
+-DarchetypeArtifactId=maven-archetype-quickstart
+```
 
 #### 以下のフォルダ・ファイルができていることを確認
  - springboot-handson1
